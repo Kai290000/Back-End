@@ -1,1 +1,8 @@
-
+.explicacao {
+    display: none;
+    text-align: center;
+    padding: 20px;
+}
+.explicacao.ativa {
+    display: block;
+}
