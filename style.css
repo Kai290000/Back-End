@@ -1,8 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
+:root {
+    --melissa: rgb(227, 241, 254);
+    --rosinha: rgb(255, 200, 221);
+    --rosa-clarinho: rgb(255, 175, 204);
+    --botao-txt: rgb(255, 230, 239);
+    --fundo-html: rgb(21, 0, 8);
+    --azulzinho: rgb(189, 224, 254);
+    --azul-clarinho: rgb(162, 210, 255);
+    --fundo-html: rgb(5, 0, 23);
+    --fundo: rgb(6, 0, 29);
+    --borda: rgb(9, 0, 47);
+    --title: "Caveat Brush", cursive;
+    --text: "Yanone Kaffeesatz", sans-serif;
+}
+
 .explicacao {
     display: none;
     text-align: center;
-    padding: 20px;
+    border: 8px solid var(--borda);
+    border-radius: 10px;
+    margin: 0px;
+    background-color: var(--fundo);
+    font-size: 35px;
 }
 .explicacao.ativa {
     display: block;
+}
+h1 {
+    font-family: var(--title);
+    margin: 0px;
+    padding: 20px 20px 30px 20px;
+    color: var(--azulzinho);
+}
+p {
+    font-family: var(--text);
+    margin: 0px;
+    padding: 0px 20px;
+    color: var(--melissa);
+}
+button {
+    font-size: 28px;
+    margin: 30px 20px;
+    padding: 6px 26px;
+    font-family: var(--text);
+}
+html {
+    background-color: var(--fundo-html);
+    margin: 150px 300px 0px 300px;
 }
