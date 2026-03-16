@@ -1,16 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
 
 :root {
-    --melissa: rgb(227, 241, 254);
-    --rosinha: rgb(255, 200, 221);
-    --rosa-clarinho: rgb(255, 175, 204);
-    --botao-txt: rgb(255, 230, 239);
-    --fundo-html: rgb(21, 0, 8);
-    --azulzinho: rgb(189, 224, 254);
-    --azul-clarinho: rgb(162, 210, 255);
-    --fundo-html: rgb(5, 0, 23);
-    --fundo: rgb(6, 0, 29);
-    --borda: rgb(9, 0, 47);
+    --vermelho: #880d1eff;
+    --vermelinho: #dd2d4aff;
+    --rosinha: #f26a8dff;
+    --yuri: #f49cbbff;
+    --tamura: #cbeef3ff;
+    --tsuyosa: #590d22ff;
+    --fundo: rgb(59, 9, 23);
+    --yuki: #800f2fff;
+    --tsugoi: #a4133cff;
+    --yasashi: #c9184aff;
+    --okama: #ff4d6dff;
+    --chigiri: #ff758fff;
+    --madame: #ff8fa3ff;
+    --gentil: #ffb3c1ff;
+    --forte: #ffccd5ff;
+    --veloz: #fff0f3ff;
     --title: "Caveat Brush", cursive;
     --text: "Yanone Kaffeesatz", sans-serif;
 }
@@ -18,34 +24,49 @@
 .explicacao {
     display: none;
     text-align: center;
-    border: 8px solid var(--borda);
+    border: 1px solid var(--yuri);
     border-radius: 10px;
     margin: 0px;
-    background-color: var(--fundo);
+    background-color: var(--tsuyosa);
     font-size: 35px;
 }
+
 .explicacao.ativa {
     display: block;
 }
+
 h1 {
     font-family: var(--title);
     margin: 0px;
     padding: 20px 20px 30px 20px;
-    color: var(--azulzinho);
+    color: var(--gentil);
 }
+
 p {
     font-family: var(--text);
     margin: 0px;
     padding: 0px 20px;
-    color: var(--melissa);
+    color: var(--veloz);
 }
+
 button {
-    font-size: 28px;
+    font-size: 25px;
     margin: 30px 20px;
     padding: 6px 26px;
     font-family: var(--text);
+    background-color: var(--okama);
+    border: 0px;
+    border-radius: 10px;
+    color: var(--tamura);
 }
+button:hover {
+    transition: 0.3s;
+    background-color: var(--chigiri);
+    box-shadow: 0 0 20px var(--chigiri);
+    border: 0px;
+}
+
 html {
-    background-color: var(--fundo-html);
+    background-color: var(--fundo);
     margin: 150px 300px 0px 300px;
 }
