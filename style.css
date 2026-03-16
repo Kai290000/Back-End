@@ -25,10 +25,11 @@
     display: none;
     text-align: center;
     border: 1px solid var(--yuri);
-    border-radius: 10px;
+    border-radius: 20px;
     margin: 0px;
     background-color: var(--tsuyosa);
     font-size: 35px;
+    max-width: 600px;
 }
 
 .explicacao.ativa {
@@ -60,7 +61,7 @@ button {
     color: var(--tamura);
 }
 button:hover {
-    transition: 0.3s;
+    transition: 0.5s;
     background-color: var(--chigiri);
     box-shadow: 0 0 20px var(--chigiri);
     border: 0px;
@@ -69,4 +70,14 @@ button:hover {
 html {
     background-color: var(--fundo);
     margin: 150px 300px 0px 300px;
+}
+
+.servidor {
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 0px;
+    background-color: var(--tsuyosa);
+    font-size: 35px;
+    max-width: 600px;
 }
