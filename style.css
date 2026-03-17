@@ -23,7 +23,7 @@
 
 .explicacao {
     display: none;
-    text-align: center;
+    content-align: center;
     border: 1px solid var(--yuri);
     border-radius: 20px;
     margin: 0px;
